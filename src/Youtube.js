@@ -94,7 +94,7 @@ THE SOFTWARE. */
     createEl: function() {
       var div = document.createElement('div');
       div.setAttribute('id', this.options_.techId);
-      div.setAttribute('style', 'width:100%;height:100%;top:0;left:0;position:absolute;pointer-events: none;');
+      div.setAttribute('style', 'width:100%;height:100%;top:0;left:0;position:absolute;pointer-events:none;');
       div.setAttribute('class', 'vjs-tech');
 
       var divWrapper = document.createElement('div');
